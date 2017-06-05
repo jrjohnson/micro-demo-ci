@@ -1,0 +1,10 @@
+.upload {
+  margin: 2em;
+}
+
+.upload label {
+  font-weight: bold;
+  color: green;
+  padding: 1em;
+  border: 1px solid blue;
+}

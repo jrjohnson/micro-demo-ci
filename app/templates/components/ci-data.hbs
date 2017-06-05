@@ -1,7 +1,11 @@
-{{x-file-input
-  name="files"
-  multiple=true
-  action=(perform upload)
-}}
+<div class='upload'>
+  {{x-file-input
+    name="files"
+    multiple=true
+    action=(perform upload)
+  }}
+</div>
 
-{{chart-donut data=data width='600' height='600'}}
+{{#if data}}
+  {{chart-donut data=data width='600' height='600'}}
+{{/if}}
